@@ -1,0 +1,14 @@
+create database aluno;
+
+use aluno;
+
+create table aluno(
+rgm numeric primary key,
+nome varchar(50) not null,
+n1 double not null,
+n2 double not null
+);
+
+insert into aluno values (1, "elias",7.5, 8);
+
+select * from aluno;
